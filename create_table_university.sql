@@ -148,4 +148,10 @@ CREATE TABLE prereq (
     PRIMARY KEY (prereq_id, course_id),
     FOREIGN KEY (course_id) REFERENCES course (course_id) ON DELETE CASCADE,
     FOREIGN KEY (prereq_id) REFERENCES course (course_id) ON DELETE CASCADE
-)
+);
+
+CREATE TABLE grade_points (
+    grade VARCHAR(2),
+    points NUMERIC(2, 1),
+    PRIMARY KEY (grade, points)
+);

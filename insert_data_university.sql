@@ -827,3 +827,63 @@ INSERT INTO
     prereq
 VALUES
     ('EE-181', 'PHY-101');
+
+INSERT INTO
+    grade_points
+VALUES
+    ('A', 4);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('A-', 3.7);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('B+', 3.3);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('B', 3);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('B-', 2.7);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('C+', 2.3);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('C', 2);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('C-', 1.7);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('D+', 1.3);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('D', 1);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('D-', 0.7);
+
+INSERT INTO
+    grade_points
+VALUES
+    ('F', 0);
