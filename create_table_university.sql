@@ -1,3 +1,25 @@
+DROP TABLE prereq;
+
+DROP TABLE time_slot;
+
+DROP TABLE advisor;
+
+DROP TABLE takes;
+
+DROP TABLE student;
+
+DROP TABLE teaches;
+
+DROP TABLE section;
+
+DROP TABLE instructor;
+
+DROP TABLE course;
+
+DROP TABLE department;
+
+DROP TABLE classroom;
+
 CREATE TABLE classroom (
     building VARCHAR(15),
     room_number VARCHAR(7),
@@ -35,8 +57,8 @@ CREATE TABLE instructor (
 );
 
 CREATE TABLE section (
-    sec_id VARCHAR(8),
     course_id VARCHAR(8),
+    sec_id VARCHAR(8),
     semester VARCHAR(6) CHECK (
         semester IN ('Fall', 'Winter', 'Spring', 'Summer')
     ),
